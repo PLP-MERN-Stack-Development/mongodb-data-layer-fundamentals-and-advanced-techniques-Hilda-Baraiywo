@@ -2,7 +2,7 @@
 // Run this with: mongosh --file mongodb_shell_example.js
 
 // Connect to a database (will create it if it doesn't exist)
-db = db.getSiblingDB('bookstore');
+db = db.getSiblingDB('plp_bookstore');
 
 // Create a collection (will create it if it doesn't exist)
 // Clear existing data for demonstration purposes
