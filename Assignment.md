@@ -23,6 +23,10 @@ This project demonstrates MongoDB CRUD operations, advanced queries, aggregation
 ## 📥 Installation
 
 ```bash
+# Create a default package.json
+npm init -y
+```
+```bash
 # Install dependencies
 npm install mongodb
 ```
@@ -52,12 +56,11 @@ node insert_books.js
 
 This single command will:
 - Create the `plp_bookstore` database
-- Insert 15 books into the `books` collection
-- Execute all CRUD operations (Task 2)
-- Run advanced queries with projection, sorting, and pagination (Task 3)
-- Perform aggregation pipelines (Task 4)
-- Create indexes and demonstrate performance improvements (Task 5)
-
+- Insert 12 books into the `books` collection
+- Execute all CRUD operations
+- Run advanced queries with projection, sorting, and pagination
+- Perform aggregation pipelines
+- Create indexes and demonstrate performance improvements
 ---
 
 ## What Gets Executed
